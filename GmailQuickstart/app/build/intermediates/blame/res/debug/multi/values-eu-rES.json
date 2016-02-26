@@ -334,7 +334,7 @@
                     "endOffset": 2123
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 2312
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 2426
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -391,13 +391,13 @@
                     "endOffset": 2704
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
-                        "startLine": 32,
+                        "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 4763,
+                        "startOffset": 4559,
                         "endColumn": 281,
-                        "endOffset": 5040
+                        "endOffset": 4836
                     }
                 }
             },
@@ -410,7 +410,7 @@
                     "endOffset": 2833
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -429,7 +429,7 @@
                     "endOffset": 3041
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -448,7 +448,7 @@
                     "endOffset": 3168
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -467,7 +467,7 @@
                     "endOffset": 3346
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -486,7 +486,7 @@
                     "endOffset": 3476
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -505,7 +505,7 @@
                     "endOffset": 3696
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -524,7 +524,7 @@
                     "endOffset": 3914
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -543,7 +543,7 @@
                     "endOffset": 4041
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -562,7 +562,7 @@
                     "endOffset": 4210
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -581,7 +581,7 @@
                     "endOffset": 4335
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -600,7 +600,7 @@
                     "endOffset": 4509
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -619,7 +619,7 @@
                     "endOffset": 4677
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -638,7 +638,7 @@
                     "endOffset": 4798
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -657,7 +657,7 @@
                     "endOffset": 4980
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -676,7 +676,7 @@
                     "endOffset": 5117
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -695,13 +695,13 @@
                     "endOffset": 5306
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
-                        "startLine": 34,
+                        "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 5176,
+                        "startOffset": 4972,
                         "endColumn": 188,
-                        "endOffset": 5360
+                        "endOffset": 5156
                     }
                 }
             },
@@ -714,13 +714,13 @@
                     "endOffset": 5437
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
-                        "startLine": 33,
+                        "startLine": 31,
                         "startColumn": 4,
-                        "startOffset": 5045,
+                        "startOffset": 4841,
                         "endColumn": 130,
-                        "endOffset": 5171
+                        "endOffset": 4967
                     }
                 }
             },
@@ -733,7 +733,7 @@
                     "endOffset": 5584
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -752,7 +752,7 @@
                     "endOffset": 5860
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -771,7 +771,7 @@
                     "endOffset": 5987
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -790,7 +790,7 @@
                     "endOffset": 6097
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -809,7 +809,7 @@
                     "endOffset": 6295
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -828,7 +828,7 @@
                     "endOffset": 6427
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -847,7 +847,7 @@
                     "endOffset": 6654
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -866,7 +866,7 @@
                     "endOffset": 6789
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -885,26 +885,7 @@
                     "endOffset": 6884
                 },
                 "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
-                    "position": {
-                        "startLine": 31,
-                        "startColumn": 4,
-                        "startOffset": 4668,
-                        "endColumn": 94,
-                        "endOffset": 4758
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 49,
-                    "startColumn": 4,
-                    "startOffset": 6889,
-                    "endColumn": 94,
-                    "endOffset": 6979
-                },
-                "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
+                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-eu-rES/common_strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -916,30 +897,11 @@
             },
             {
                 "to": {
-                    "startLine": 50,
+                    "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 6984,
-                    "endColumn": 108,
-                    "endOffset": 7088
-                },
-                "from": {
-                    "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-eu-rES/common_strings.xml",
-                    "position": {
-                        "startLine": 30,
-                        "startColumn": 4,
-                        "startOffset": 4559,
-                        "endColumn": 108,
-                        "endOffset": 4663
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 51,
-                    "startColumn": 4,
-                    "startOffset": 7093,
+                    "startOffset": 6889,
                     "endColumn": 100,
-                    "endOffset": 7189
+                    "endOffset": 6985
                 },
                 "from": {
                     "file": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-eu-rES/values-eu-rES.xml",

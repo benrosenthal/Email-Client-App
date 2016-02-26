@@ -76,6 +76,10 @@
         "source": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_media.xml"
     },
     {
+        "merged": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/res/merged/debug/layout/email_list_item.xml",
+        "source": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/src/main/res/layout/email_list_item.xml"
+    },
+    {
         "merged": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },

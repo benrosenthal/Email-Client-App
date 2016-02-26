@@ -37,8 +37,11 @@ application
 ADDED from /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/src/main/AndroidManifest.xml:13:5-30:19
 MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.0.1] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-identity:7.8.0] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.8.0/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.8.0] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-identity:8.1.0] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.0.1] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/src/main/AndroidManifest.xml:16:9-53
@@ -66,7 +69,8 @@ ADDED from /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/Gma
 		ADDED from /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/src/main/AndroidManifest.xml:23:27-74
 meta-data#com.google.android.gms.version
 ADDED from /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/src/main/AndroidManifest.xml:27:9-29:69
-MERGED from [com.google.android.gms:play-services-base:7.8.0] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
 	android:value
 		ADDED from /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/src/main/AndroidManifest.xml:29:13-66
 	android:name
@@ -75,8 +79,12 @@ uses-sdk
 INJECTED from /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.0.1] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-identity:7.8.0] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.8.0/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.8.0] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:8.1.0] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:support-v4:23.0.1] /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		INJECTED from /Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/src/main/AndroidManifest.xml

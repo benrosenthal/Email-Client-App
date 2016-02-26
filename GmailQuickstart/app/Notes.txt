@@ -1,0 +1,108 @@
+
+
+
+
+
+//    for(int i =0; i < emailsJSONArray.length(); i++) {
+//        JSONObject object = emailsJSONArray.optJSONObject(i);
+//        Email inboxMessage = new Email(object.optInt("sender"),
+//                object.optInt("favoritetrue"), object.optInt("attachmenttrue"),
+//                object.optString("title"), object.optString("content"),
+//                object.optString("time"), object.optString("tag"));
+//    }
+//        mGmailArrayList.add(inboxMessage);
+
+
+    private String getInputData(InputStream inStream) throws IOException {
+        StringBuilder builder = new StringBuilder();
+        BufferedReader reader = new BufferedReader(new InputStreamReader(inStream));
+
+        String data;
+
+        while ((data = reader.readLine()) != null) {
+            builder.append(data);
+        }
+
+        reader.close();
+
+        return builder.toString();
+    }
+
+    public class DownloadAsyncTask extends AsyncTask<String, Void, String> {
+
+            @Override
+            protected String doInBackground(String... urls) {
+                String data = "";
+                try {
+                    URL url = new URL(urls[0]);
+                    HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+                    connection.connect();
+
+                    InputStream inStream = connection.getInputStream();
+                    data = getInputData(inStream);
+
+                } catch (Throwable thr) {
+                    thr.printStackTrace();
+                }
+
+try {
+                JSONObject dataObject = new JSONObject(data);
+                //dataObject refers to all JSON data not just parent curly bracket
+
+                String Array
+
+                JSONArray messageIDArray = dataObject.getJSONArray("messages");
+                for(int i =0; i < emailsJSONArray.length(); i++) {
+                Email singleMessage = new Email(photoObject.getJSONObject("id"),
+
+                mStringArray.clear();
+
+
+                for (int i =0; i < photoJSONArray.length(); i++) {
+                    JSONObject object = photoJSONArray.optJSONObject(i);
+                    String title = object.optString("title");
+
+                    mStringArray.add(title);
+                }
+
+
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        mClient.connect();
+        Action viewAction = Action.newAction(
+                Action.TYPE_VIEW, // TODO: choose an action type.
+                "Main Page", // TODO: Define a title for the content shown.
+                // TODO: If you have web page content that matches this app activity's content,
+                // make sure this auto-generated web page URL is correct.
+                // Otherwise, set the URL to null.
+                Uri.parse("http://host/path"),
+                // TODO: Make sure this auto-generated app deep link URI is correct.
+                Uri.parse("android-app://com.example.gmailquickstart/http/host/path")
+        );
+        AppIndex.AppIndexApi.start(mClient, viewAction);
+
+
+       @Override
+       public void onStop() {
+           super.onStop();
+
+           // ATTENTION: This was auto-generated to implement the App Indexing API.
+           // See https://g.co/AppIndexing/AndroidStudio for more information.
+           Action viewAction = Action.newAction(
+                   Action.TYPE_VIEW, // TODO: choose an action type.
+                   "Main Page", // TODO: Define a title for the content shown.
+                   // TODO: If you have web page content that matches this app activity's content,
+                   // make sure this auto-generated web page URL is correct.
+                   // Otherwise, set the URL to null.
+                   Uri.parse("http://host/path"),
+                   // TODO: Make sure this auto-generated app deep link URI is correct.
+                   Uri.parse("android-app://com.example.gmailquickstart/http/host/path")
+           );
+           AppIndex.AppIndexApi.end(mClient, viewAction);
+           mClient.disconnect();
+       }

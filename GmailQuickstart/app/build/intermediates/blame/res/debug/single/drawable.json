@@ -25,7 +25,7 @@
     },
     {
         "merged": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_text_light.xml",
-        "source": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/drawable/common_signin_btn_text_light.xml"
+        "source": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/res/drawable/common_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
@@ -41,7 +41,7 @@
     },
     {
         "merged": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_icon_light.xml",
-        "source": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/drawable/common_signin_btn_icon_light.xml"
+        "source": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/res/drawable/common_signin_btn_icon_light.xml"
     },
     {
         "merged": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
@@ -57,11 +57,11 @@
     },
     {
         "merged": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_icon_dark.xml",
-        "source": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/drawable/common_signin_btn_icon_dark.xml"
+        "source": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/res/drawable/common_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_text_dark.xml",
-        "source": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/drawable/common_signin_btn_text_dark.xml"
+        "source": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/res/drawable/common_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/User_1_Benjamin_Rosenthal/Desktop/adirepo/Email-Client-App/GmailQuickstart/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
