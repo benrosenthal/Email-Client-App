@@ -1796,7 +1796,7 @@ containing a value of this type.
         public static final int app_name=0x7f060032;
         public static final int auth_google_play_services_client_facebook_display_name=0x7f060033;
         public static final int auth_google_play_services_client_google_display_name=0x7f060034;
-        public static final int client_id=0x7f060035;
+        public static final int client_id_=0x7f060035;
         public static final int common_android_wear_notification_needs_update_text=0x7f060011;
         public static final int common_android_wear_update_text=0x7f060012;
         public static final int common_android_wear_update_title=0x7f060013;

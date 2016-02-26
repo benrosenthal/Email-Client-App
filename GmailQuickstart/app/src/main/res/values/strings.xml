@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">GmailQuickstart</string>
-    <string name="client_id">561168620837-k4i3gmarqvr8bdokvouiuk58lj2mlu0k.apps.googleusercontent.com</string>
+    <!-- client_id for this application is gmailquickstart -->
+    <string name="client_id_">561168620837-k4i3gmarqvr8bdokvouiuk58lj2mlu0k.apps.googleusercontent.com</string>
 </resources>
