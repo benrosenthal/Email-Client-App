@@ -35,7 +35,10 @@ public class EmailAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-
+        //adding this
+        if (convertView == null) {
+            return null;
+        }
         return null;
     }
 }

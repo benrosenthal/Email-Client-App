@@ -11,10 +11,11 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.text.TextUtils;
-import android.text.method.ScrollingMovementMethod;
-import android.view.ViewGroup;
-import android.widget.LinearLayout;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import com.google.android.gms.appindexing.AppIndex;
@@ -42,10 +43,20 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class MainActivity extends Activity {
+    public static final String TAG = MainActivity.class.getSimpleName();
+
     GoogleAccountCredential mCredential;
-    private TextView mOutputText;
+    Gmail mService;
     ProgressDialog mProgress;
     String mUser;
+    Toolbar mToolbar;
+    private TextView mOutputText;
+    private ListView mOutputListView;
+    private ArrayAdapter<String> mMessageIdsAdapter;
+    private ArrayList<String> mMessageIds;
+    private ArrayList<String> mCategories;
+
+    String url = "";
 
     static final int REQUEST_ACCOUNT_PICKER = 1000;
     static final int REQUEST_AUTHORIZATION = 1001;
@@ -69,31 +80,24 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        LinearLayout activityLayout = new LinearLayout(this);
-        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT,
-                LinearLayout.LayoutParams.MATCH_PARENT);
-        activityLayout.setLayoutParams(lp);
-        activityLayout.setOrientation(LinearLayout.VERTICAL);
-        activityLayout.setPadding(16, 16, 16, 16);
+        setContentView(R.layout.activity_main);
 
-        ViewGroup.LayoutParams tlp = new ViewGroup.LayoutParams(
-                ViewGroup.LayoutParams.WRAP_CONTENT,
-                ViewGroup.LayoutParams.WRAP_CONTENT);
+//        ViewGroup.LayoutParams tlp = new ViewGroup.LayoutParams(
+//                ViewGroup.LayoutParams.WRAP_CONTENT,
+//                ViewGroup.LayoutParams.WRAP_CONTENT);
 
-        mOutputText = new TextView(this);
-        mOutputText.setLayoutParams(tlp);
-        mOutputText.setPadding(16, 16, 16, 16);
-        mOutputText.setVerticalScrollBarEnabled(true);
-        mOutputText.setMovementMethod(new ScrollingMovementMethod());
-        activityLayout.addView(mOutputText);
-
+        //I added
+        mToolbar = (Toolbar)findViewById(R.id.top_toolbar);
+        mOutputText = (TextView)findViewById(R.id.output_text_textview);
+        mOutputListView = (ListView)findViewById(R.id.output_listview);
         mProgress = new ProgressDialog(this);
         mProgress.setMessage("Calling Gmail API ...");
 
         mUser = "me";
 
-        setContentView(activityLayout);
+        //ListMessagesResponse mMessageIdsResponse = (mService.users().messages().list(mUser).execute()); throw IOException;
+
+
 
         // Initialize credentials and service object.
         SharedPreferences settings = getPreferences(Context.MODE_PRIVATE);
@@ -104,6 +108,16 @@ public class MainActivity extends Activity {
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         mClient = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_main, menu);
+
+        return super.onCreateOptionsMenu(menu);
     }
 
 
@@ -270,12 +284,16 @@ public class MainActivity extends Activity {
         @Override
         protected ArrayList<String> doInBackground(ArrayList<String>... params) {
             try {
-                return getMessageSubjectsFromApi();
+                mMessageIdsAdapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, getLabelsDataFromApi());
+                //MessagePart messagePart = null;
+                //messagePart.getBody().getData();
+                //getMessageIdListFromApi();
             } catch (Exception e) {
                 mLastError = e;
                 cancel(true);
                 return null;
             }
+            return null;
         }
 
         /**
@@ -284,6 +302,34 @@ public class MainActivity extends Activity {
          * @return List of Strings labels.
          * @throws IOException
          */
+//        if (isNetworkAvailable()) {
+//            OkHttpClient okHttpClient = new OkHttpClient();
+//            Request okHttpRequest = new Request.Builder()
+//                    .url(forecastUrl).build();
+//
+//            Call okHttpCall = okHttpClient.newCall(okHttpRequest);
+//            okHttpCall.enqueue(new Callback() {
+//                @Override
+//                public void onFailure(Call call, IOException e) {
+//
+//                }
+//
+//                @Override
+//                public void onResponse(Call call, Response okHttpResponse) throws IOException {
+//                    try {
+//                        String jsonData = okHttpResponse.body().string();
+//                        Log.v(TAG, jsonData);
+//                        if (okHttpResponse.isSuccessful()) {
+//                            mCurrentWeather = getCurrentDetails(jsonData);
+//                        } else {
+//                            alertUserAboutError();
+//                        }
+//                    } catch (IOException e) {
+//                        Log.e(TAG, "Exception Caught", e);
+//                    } catch (JSONException e)  {
+//                        Log.e(TAG, "Exception Caught", e);
+//                    }
+
         private ArrayList<String> getLabelsDataFromApi() throws IOException {
             // Get the labels in the user's account.
             ArrayList<String> labels = new ArrayList<String>();
@@ -295,14 +341,19 @@ public class MainActivity extends Activity {
             return labels;
         }
 
-        private ArrayList<String> getMessageIdListFromApi() throws IOException {
-            ArrayList<String> messageIds = new ArrayList<String>();
-            ListMessagesResponse messageResponse = mService.users().messages().list(mUser).execute();
-            ArrayList<Message> messages = new ArrayList<Message>();
-            for (Message message : messageResponse.getMessages()) {
-                messageIds.add(message.getId());
+        private ArrayList<String> getMessageIdListFromApi() throws IOException {;
+
+            ArrayList<String> mMessageIds = new ArrayList<>();
+            ListMessagesResponse mMessageIdsResponse = (mService.users().messages().list(mUser).execute());
+            //mMessageIdsResponse.getMessages();
+            for (Message singeMessageId: mMessageIdsResponse.getMessages()){
+                mMessageIds.add(singeMessageId.getId());
             }
-            return messageIds;
+// (messageResponse.getMessages());
+//            mService.users().messages().list(mUser).execute()>
+//            for (Message message : messageResponse.getMessages()) {
+//                messageIds.add(message.getId());
+            return mMessageIds;
         }
 //        private ArrayList<String> getMessageSnippetsFromApi() throws IOException {
 //            ArrayList<String> messageSnippets = new ArrayList<String>();
@@ -321,9 +372,10 @@ public class MainActivity extends Activity {
 //            ArrayList<String> messageContents = new ArrayList<String>();
 //            for (int i = 0; i < ids.size(); i++) {
 //                Message singleMessageContent = mService.users().messages().get(mUser, ids.get(i)).setFormat("full").execute();
-//                String part = (String) singleMessageContent.getPayload().getParts().get(1).getBody().get("data");
-//                String messageContent = Base64.decodeBase64(part).toString();
-//                messageContents.add(messageContent);
+//                MessagePartBody part = singleMessageContent.getPayload().getParts().get(1).getBody();
+//                if (part.)
+//                    String messageContent = Base64.decodeBase64(part).toString();
+//                    messageContents.add(messageContent);
 //            }
 //            return messageContents;
 //        }
@@ -357,6 +409,19 @@ public class MainActivity extends Activity {
             }
             return messageSenders;
         }
+
+
+
+        private boolean isNetworkAvailable() {
+             ConnectivityManager manager = (ConnectivityManager)
+             getSystemService(Context.CONNECTIVITY_SERVICE);
+             NetworkInfo networkInfo = manager.getActiveNetworkInfo();
+             boolean isAvailable = false;
+             if (networkInfo != null && networkInfo.isConnected()){
+                 isAvailable = true;
+                        }
+                 return isAvailable;
+        }
             //For Second Activityn
 //        private ArrayList<String> getMessageBody(String messageId) throws IOException {
 //            Message singleMessageContent = mService.users().messages().get(mUser, messageId).execute();
@@ -367,6 +432,8 @@ public class MainActivity extends Activity {
 //            return messageBodyList;
 //        }
 
+
+
         @Override
         protected void onPreExecute () {
             mOutputText.setText("");
@@ -376,12 +443,13 @@ public class MainActivity extends Activity {
             @Override
             protected void onPostExecute (ArrayList<String> output) {
                 mProgress.hide();
-                if (output == null || output.size() == 0) {
-                    mOutputText.setText("No results returned.");
-                } else {
-                    output.add(0, "Data retrieved using the Gmail API:");
-                    mOutputText.setText(TextUtils.join("\n", output));
-                }
+                mOutputListView.setAdapter(mMessageIdsAdapter);
+//                if (output == null || output.size() == 0) {
+//                    mOutputText.setText("No results returned.");
+//                } else {
+//                    output.add(0, "Data retrieved using the Gmail API:");
+//                    mOutputText.setText(TextUtils.join("\n", output));
+//                }
             }
 
             @Override
